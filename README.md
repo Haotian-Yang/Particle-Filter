@@ -9,3 +9,4 @@ rosbag play laser_controls_and_odometry.bag
 rosrun rviz rviz    
 ``` 
 When rviz initializes, go to `File > OpenConfig` and then load the configuration file in `estimation_and_vision_assignment/resources/comp417.rviz` which is going to start the visualization of laser scan messages, frames of reference, and particles.
+![demo](demo.gif)
